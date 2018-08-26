@@ -19,6 +19,11 @@ public class Test1 {
         button_click.click();
 
 
+        WebElement admin_avatar = driver.findElement(By.id("employee_infos"));
+        admin_avatar.click();
+
+        WebElement logot_elem = driver.findElement(By.id("header_logout"));
+        logot_elem.click();
     }
 
     public static WebDriver getInitFirefoxDriver(){
