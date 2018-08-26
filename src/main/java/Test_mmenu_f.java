@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Test_mmenu_f {
     public static void main(String[] args){
         WebDriver driver = getInitFirefoxDriver();
-
+        driver.get("http://google.com");
         driver.get("http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/");
 
         /*WebElement email_field = newdriver.findElement(By.id("email"));
